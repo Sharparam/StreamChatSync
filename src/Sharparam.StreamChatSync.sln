@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharparam.StreamChatSync.Service", "Sharparam.StreamChatSync.Service\Sharparam.StreamChatSync.Service.csproj", "{790AB44D-7AA1-4B0E-8A0A-C32625BACFE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharparam.StreamChatSync.Twitch", "Sharparam.StreamChatSync.Twitch\Sharparam.StreamChatSync.Twitch.csproj", "{2D16BA02-D653-4633-B30D-3A850A4B27CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharparam.StreamChatSync.Discord", "Sharparam.StreamChatSync.Discord\Sharparam.StreamChatSync.Discord.csproj", "{81EDD97F-6284-401C-B92F-C09189ED6446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharparam.StreamChatSync.Mixer", "Sharparam.StreamChatSync.Mixer\Sharparam.StreamChatSync.Mixer.csproj", "{765F1DED-570B-4F60-9FA5-46FA80F72B74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{790AB44D-7AA1-4B0E-8A0A-C32625BACFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{790AB44D-7AA1-4B0E-8A0A-C32625BACFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{790AB44D-7AA1-4B0E-8A0A-C32625BACFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{790AB44D-7AA1-4B0E-8A0A-C32625BACFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D16BA02-D653-4633-B30D-3A850A4B27CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D16BA02-D653-4633-B30D-3A850A4B27CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D16BA02-D653-4633-B30D-3A850A4B27CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D16BA02-D653-4633-B30D-3A850A4B27CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EDD97F-6284-401C-B92F-C09189ED6446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EDD97F-6284-401C-B92F-C09189ED6446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EDD97F-6284-401C-B92F-C09189ED6446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EDD97F-6284-401C-B92F-C09189ED6446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765F1DED-570B-4F60-9FA5-46FA80F72B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765F1DED-570B-4F60-9FA5-46FA80F72B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765F1DED-570B-4F60-9FA5-46FA80F72B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765F1DED-570B-4F60-9FA5-46FA80F72B74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48A3C77C-8072-4A63-A686-EFE99E33A073}
+	EndGlobalSection
+EndGlobal
